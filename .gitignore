@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+rocket-env/
+ppo_rocketlander_tensorboard/
+models/
