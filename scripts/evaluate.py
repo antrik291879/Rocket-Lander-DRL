@@ -52,8 +52,11 @@ for episode in range(episodes_to_run):
 
         if obs[LEFT_GROUND_CONTACT] == 0 and obs[RIGHT_GROUND_CONTACT] == 0:
             test_env.move_barge_randomly(epsilon, left_or_right_barge_movement)
-            test_env.apply_random_x_disturbance(epsilon=0.005, left_or_right=left_or_right_barge_movement)
-            test_env.apply_random_y_disturbance(epsilon=0.005)
+            try:
+                test_env.apply_random_x_disturbance(epsilon=0.005, left_or_right=left_or_right_barge_movement)
+                test_env.apply_random_y_disturbance(epsilon=0.005)
+            except ValueError:  
+                pass
 
         if done:
             print('Episode:\t{}\tTotal Reward:\t{}'.format(episode, episode_reward))
