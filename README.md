@@ -139,17 +139,18 @@ Advantages of implementing using PPO:
 ## **Results**
 <img width="426" height="240" alt="image" src="https://github.com/user-attachments/assets/7f0998e1-5761-4127-b374-75c1ae318f71" />
 
-Episode:        0       Total Reward:   52.50974502551213
-Episode:        1       Total Reward:   54.444107096304684
-Episode:        2       Total Reward:   56.27822934129467
-Episode:        3       Total Reward:   49.977322842024094
-Episode:        4       Total Reward:   54.66340194421085
-Episode:        5       Total Reward:   53.1162276354242
-Episode:        6       Total Reward:   53.95580809406797
-Episode:        7       Total Reward:   52.877967533059824
-Episode:        8       Total Reward:   51.99888979974516
-Episode:        9       Total Reward:   51.11137140035305
-
+| Episode | Total Reward        |
+|---------|--------------------|
+| 0       | 52.50974502551213  |
+| 1       | 54.444107096304684 |
+| 2       | 56.27822934129467  |
+| 3       | 49.977322842024094 |
+| 4       | 54.66340194421085  |
+| 5       | 53.1162276354242   |
+| 6       | 53.95580809406797  |
+| 7       | 52.877967533059824 |
+| 8       | 51.99888979974516  |
+| 9       | 51.11137140035305  |
 
 
 
