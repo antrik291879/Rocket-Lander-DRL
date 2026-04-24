@@ -53,7 +53,8 @@ It provides continuous feedback about position, velocity, and contact status.
 
 The **state space** is continuous (8-dimensional), allowing the policy to observe smooth dynamics of flight.
 
-![Demonstration of the application features](https://github.com/TvishaMehta/Rocket-Lander-using-DRL/blob/8d748f57925d87efe28697c04ae8c95f1719ee38/act_space%20and%20state_space.jpg)
+<img width="1152" height="863" alt="image" src="https://github.com/user-attachments/assets/e47453dc-b80b-4cb1-84cd-4cbed785438d" />
+
 
 ## 🧮 **Reward Function**
 
@@ -90,7 +91,8 @@ This formulation uses a **potential-based shaping function** to stabilize learni
 
 ## **Graphs**
 
-![Demonstration of the application features](https://github.com/TvishaMehta/Rocket-Lander-using-DRL/blob/e25ab06996289f67836c1ccd09b6efc76f94c92c/training%20graph.png)
+<img width="1457" height="706" alt="image" src="https://github.com/user-attachments/assets/bcfb343b-eb84-4dff-9a75-7ee587901b70" />
+
 
 ## **DRL**
 
@@ -135,9 +137,11 @@ Advantages of implementing using PPO:
 </ul>
 
 ## **Results**
-![Demonstration of the application features](https://github.com/TvishaMehta/Rocket-Lander-using-DRL/blob/f61849c08f9af2a591a1ca035d0dfe1ef54f89a8/final_outcome.gif)
+<img width="426" height="240" alt="image" src="https://github.com/user-attachments/assets/7f0998e1-5761-4127-b374-75c1ae318f71" />
+
 
 Final testing graph:
 
-![Demonstration of the application features](https://github.com/TvishaMehta/Rocket-Lander-using-DRL/blob/cd679686c87ecfeee54481d836d8a73e30ad7d41/final%20testing.png)
+<img width="1017" height="674" alt="image" src="https://github.com/user-attachments/assets/8e2ff4ed-e6c4-4f5b-a3a6-fe4079ae2ae1" />
+
 
